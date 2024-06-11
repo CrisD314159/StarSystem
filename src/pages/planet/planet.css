@@ -4,7 +4,14 @@
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 20px;
+  @media screen and (max-width: 700px){
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: padding-box;
+    
+  }
 }
+
 
 .imageFilter{
   width: 100%;

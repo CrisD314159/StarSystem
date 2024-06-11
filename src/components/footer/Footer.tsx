@@ -6,7 +6,7 @@ function Footer (){
               <img src="/img1.png" alt="Star System" className="footerImage" />
             </div>
             <div className="footerTextContainer">
-              <p>© 2024 Star System</p>
+              <p>© 2024 Star System | Created by <a href="https://crisdev.web.app/">Crisdev</a></p>
             </div>
         </footer>
     )

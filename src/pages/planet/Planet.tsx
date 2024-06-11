@@ -24,6 +24,7 @@ function Planet() {
   const id = useParams().id
   const [sun] = useState((id === 'Sun'))
   const planet = planets.planets.find((planet: Planet) => planet.name === id)
+  window.scrollTo(0, 0)
 
 
   if (!planet) return <div><NotFound/></div>
