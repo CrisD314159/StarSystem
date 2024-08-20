@@ -11,7 +11,7 @@ function Header() {
       <nav className="navContainer">
         <ul className="navList">
           <li className="navListItem"><NavLink to={"/"}>Home</NavLink></li>
-          <li className="navListItem"><a href="https://crisdev.web.app">Creator's Page</a></li>
+          <li className="navListItem"><a href="https://crisdev-pi.vercel.app">Creator's Page</a></li>
         </ul>
       </nav>
     </header>
